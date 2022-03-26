@@ -1,3 +1,110 @@
 body {
     margin: 0 auto;
 }
+.wrap{
+    background: 100% / contain url("../img/2 1.png") no-repeat;
+    width: 370px;
+    height: 667px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.wrap-sign{
+    width: 100%;
+    display: flex;
+}
+.wrap-sign a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.wrap-sign a:hover {
+    color: #2553B3;
+}
+
+.wrap-sign-in{
+    margin-top: 179px;
+    margin-left: 150px;
+}
+.wrap-sign-up{
+    margin-top: 179px;
+    margin-left: 25px;
+}
+
+.wrap-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-form{
+    width: 212px;
+    height: 30px;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #DEDEDE;
+    outline: none;
+    font-family: Montserrat, sans-serif;
+    color: #DEDEDE;
+    font-size: 20px;
+}
+
+.input-form::placeholder{
+    color: #DEDEDE;
+    text-align: center;
+}
+
+.input-form:hover{
+    border-bottom: 1px solid #2553B3;
+}
+
+.input-form:hover::placeholder{
+    color: #2553B3;
+}
+
+#email{
+    margin-top: 55px;
+}
+
+#password{
+    margin-top: 28px;
+}
+
+.wrap-form a {
+    color: #B4B4B4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 32px;
+}
+
+.wrap-form a:hover {
+    color: #2553B3;
+}
+.button-form{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 173px;
+    height: 44px;
+    border-radius: 22px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #B4B4B4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.button-sign-in{
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    margin-top: 105px;
+}
+
+.button-facebook{
+    background: #2553B3;
+    border: 2px solid #2553B3;
+    margin-top: 13px;
+}

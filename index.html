@@ -8,8 +8,28 @@
     <meta content='yes' name='apple-mobile-web-app-capable'/>
     <title>Title</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>start</p>
+    <div class="wrap">
+        <div class="wrap-sign">
+            <a class="wrap-sign-in" href="#sign_in">Sign In</a>
+            <a class="wrap-sign-up" href="#Sign_up">Sign Up</a>
+        </div>
+        <form class="wrap-form" action="#">
+            <input id="email" class="input-form" type="email" placeholder="E-Mail">
+            <label for="email"></label>
+            <input id="password" class="input-form" type="password" placeholder="Password">
+            <label for="password"></label>
+            <a href="#forgot">Forgot password?</a>
+            <button class="button-sign-in button-form">Sign In</button>
+        </form>
+        <form class="wrap-form" action="https://www.facebook.com/" target="_blank">
+            <button class="button-facebook button-form">Facebook</button>
+        </form>
+
+    </div>
 </body>
 </html>
